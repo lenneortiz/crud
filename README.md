@@ -1,7 +1,7 @@
 Crud con la extención PDO de PHP, JQUERY y MYSQL Version:1.0
 
 configuración:
-importar el archivo crud.sql con el phpmyadmin
+importar el archivo crud.sql a mysql con phpmyadmin.
 entrar al directorio config y editar el archivo dbconfig.php 
 con 
 define("DSN", "mysql:host=localhost;dbname=tu base de datos");
