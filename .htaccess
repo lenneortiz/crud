@@ -1,0 +1,17 @@
+RewriteEngine On
+php_value upload_max_filesize 10M
+php_value memory_limit 500M
+#rutas
+Options -Indexes
+#ErrorDocument 403 "Error 403. Contactar al administrador."
+ErrorDocument 400 "Error 400. Contactar al administrador."
+ErrorDocument 401 "Error 401. Contactar al administrador."
+ErrorDocument 404 "Error 404. Contactar al administrador."
+
+
+ErrorDocument 403 /vista/403.php
+ RewriteRule ^home$ home.php [L]
+
+
+
+
